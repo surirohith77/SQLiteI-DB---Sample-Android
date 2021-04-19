@@ -1,0 +1,70 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_marginBottom="80dp"
+        android:layout_marginRight="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b3"
+        android:onClick="back"
+        android:background="@drawable/back_arrow"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:inputType="number"
+        android:hint="Id"
+        android:ems="5"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et2"
+        android:inputType="text"
+        android:hint="Name"
+        android:ems="10"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et3"
+        android:hint="Contact"
+        android:ems="10"
+        android:inputType="number"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et4"
+        android:hint="Email"
+        android:ems="10"
+        android:inputType="text"/>
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et5"
+        android:hint="Password"
+        android:ems="10"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:text="Save"
+        android:onClick="save"
+        android:textColor="#123"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>

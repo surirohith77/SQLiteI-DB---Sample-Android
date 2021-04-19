@@ -1,0 +1,152 @@
+
+<LinearLayout android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:id="@+id/ll"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Id "
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="#f00"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="......"
+                    android:id="@+id/emp_det_tv"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="25sp"
+                    android:textColor="#1900ff"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Name "
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#F00"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="...."
+                    android:id="@+id/emp_det_tv1"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#1900ff"/>
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Contact No "
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#F00"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="...."
+                    android:id="@+id/emp_det_tv2"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#1900ff"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Email "
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#F00"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="...."
+                    android:id="@+id/emp_det_tv3"
+                    android:padding="5dp"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:textColor="#1900ff"/>
+            </TableRow>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Password "
+                    android:textColor="#F00"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="...."
+                    android:id="@+id/emp_det_tv4"
+                    android:padding="5dp"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#1900ff"/>
+            </TableRow>
+            <TableRow>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:id="@+id/emp_det_update"
+                    android:textSize="15sp"
+                    android:textAllCaps="false"
+                    android:text="Update" />
+
+                <Button
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textAllCaps="false"
+                    android:padding="5dp"
+                    android:id="@+id/emp_det_delete"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Delete"/>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
